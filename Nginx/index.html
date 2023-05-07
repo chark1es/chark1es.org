@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    </head>
+    
+    
+
+    <body>
+
+        <img id="img", src="">
+
+        <script>
+            $.getJSON('https://meme-api.com/gimme/ProgrammerHumor', function(data) {
+                var memeImg = data.url;
+                var timestamp = new Date().getTime();
+                var image = document.getElementById("img")
+                image.src=memeImg + "?t=" + timestamp;
+                console.log(image.src)
+            });
+
+            
+            
+        </script>
+
+
+    </body>
+
+</html>
