@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            
+            $.getJSON('https://meme-api.com/gimme/ProgrammerHumor', function(data) {
+                var memeImg = data.url;
+                location.replace(memeImg);
+            });
+
+            
+            
+        </script>
+        
+   </head>
+
+</html>
