@@ -76,9 +76,10 @@ params:
   homeInfoParams:
     Title: "Hi there! \U0001F44B"
     image:
-      url: https://leovct.github.io/cypher-city-318-modified.png
+      url: https://github.com/chark1es/chark1es.org/blob/main/portfolio/assets/images/derp.png?raw=true
       title: e
       link: e
+      
     Content: Welcome to my portfolio!
     
 
